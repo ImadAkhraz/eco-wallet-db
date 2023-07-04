@@ -1,231 +1,409 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"firstName": "Imad",
-			"lastName": "IKHARAZE",
-			"email": "imad.ikharaze@gmail.com",
-			"password": "imadgrizo",
-			"favoriteProducts": [],
-			"notifications": []
-		},
-		{
-			"id": 2,
-			"firstName": "Wiam",
-			"lastName": "BISSI",
-			"email": "wiam.bissi@gmail.com",
-			"password": "wiambissi",
-			"favoriteProducts": [],
-			"notifications": []
-		}
-	],
-	"brands": [
-		{
-			"id": 1,
-			"logo": "https://i.ibb.co/Vm6h9FS/nike-logo.jpg",
-			"name": "Nike",
-			"website": "",
-			"addresses": []
-		},
-		{
-			"id": 2,
-			"logo": "https://i.ibb.co/099dBdw/lefties.jpg",
-			"name": "Lefties",
-			"website": "",
-			"addresses": []
-		},
-		{
-			"id": 3,
-			"logo": "https://i.ibb.co/HNcSKJ6/newyorker.png",
-			"name": "NewYorker",
-			"website": "",
-			"addresses": []
-		},
-		{
-			"id": 4,
-			"logo": "https://i.ibb.co/SNV0Mzk/lc-waikiki.jpg",
-			"name": "LC WAIKIKI",
-			"website": "",
-			"addresses": []
-		},
-		{
-			"id": 5,
-			"logo": "https://i.ibb.co/C5YWgfJ/defacto.png",
-			"name": "DeFacto",
-			"website": "",
-			"addresses": []
-		}
-	],
-	"products": [
-		{
-			"id": 1,
-			"image": "https://i.ibb.co/tQTg8Pk/jacket.jpg",
-			"name": "Jacket Biege",
-			"brand": {
-				"id": 2,
-				"logo": "https://i.ibb.co/099dBdw/lefties.jpg",
-				"name": "Lefties",
-				"website": "",
-				"addresses": []
-			},
-			"price": 400.00,
-			"discount": 20,
-			"isAvailable": true,
-			"isFavorite": true,
-			"reviews": []
-		},
-		{
-			"id": 2,
-			"image": "https://i.ibb.co/zRG0fbC/blousse.jpg",
-			"name": "Blousse Maron",
-			"brand": {
-				"id": 4,
-				"logo": "https://i.ibb.co/SNV0Mzk/lc-waikiki.jpg",
-				"name": "LC WAIKIKI",
-				"website": "",
-				"addresses": []
-			},
-			"price": 250.00,
-			"discount": 10,
-			"isAvailable": false,
-			"isFavorite": true,
-			"reviews": []
-		},
-		{
-			"id": 3,
-			"image": "https://i.ibb.co/ZB3YRhF/chaussette.jpg",
-			"name": "Chaussettes Blanches",
-			"brand": {
-				"id": 1,
-				"logo": "https://i.ibb.co/Vm6h9FS/nike-logo.jpg",
-				"name": "Nike",
-				"website": "",
-				"addresses": []
-			},
-			"price": 50.00,
-			"discount": 0,
-			"isAvailable": true,
-			"isFavorite": false,
-			"reviews": []
-		},
-		{
-			"id": 4,
-			"image": "https://i.ibb.co/KXWN3qv/chaussures.jpg",
-			"name": "Chaussures Sportif",
-			"brand": {
-				"id": 1,
-				"logo": "https://i.ibb.co/Vm6h9FS/nike-logo.jpg",
-				"name": "Nike",
-				"website": "",
-				"addresses": []
-			},
-			"price": 350.00,
-			"discount": 40,
-			"isAvailable": false,
-			"isFavorite": false,
-			"reviews": []
-		},
-		{
-			"id": 5,
-			"image": "https://i.ibb.co/N1mfMX6/jean.jpg",
-			"name": "Jean Bleu",
-			"brand": {
-				"id": 2,
-				"logo": "https://i.ibb.co/099dBdw/lefties.jpg",
-				"name": "Lefties",
-				"website": "",
-				"addresses": []
-			},
-			"price": 150.00,
-			"discount": 30,
-			"isAvailable": false,
-			"isFavorite": true,
-			"reviews": []
-		},
-		{
-			"id": 6,
-			"image": "https://i.ibb.co/7kSdzdZ/pyjama.jpg",
-			"name": "Pyjama Face",
-			"brand": {
-				"id": 5,
-				"logo": "https://i.ibb.co/C5YWgfJ/defacto.png",
-				"name": "DeFacto",
-				"website": "",
-				"addresses": []
-			},
-			"price": 200.00,
-			"discount": 0,
-			"isAvailable": false,
-			"isFavorite": false,
-			"reviews": []
-		},
-		{
-			"id": 7,
-			"image": "https://i.ibb.co/b3QWt6S/robe.jpg",
-			"name": "Robe Noir",
-			"brand": {
-				"id": 3,
-				"logo": "https://i.ibb.co/HNcSKJ6/newyorker.png",
-				"name": "NewYorker",
-				"website": "",
-				"addresses": []
-			},
-			"price": 300.00,
-			"discount": 0,
-			"isAvailable": true,
-			"isFavorite": true,
-			"reviews": []
-		},
-		{
-			"id": 8,
-			"image": "https://i.ibb.co/N3bdc6g/skirt.jpg",
-			"name": "Long Skirt",
-			"brand": {
-				"id": 3,
-				"logo": "https://i.ibb.co/HNcSKJ6/newyorker.png",
-				"name": "NewYorker",
-				"website": "",
-				"addresses": []
-			},
-			"price": 199.99,
-			"discount": 60,
-			"isAvailable": true,
-			"isFavorite": false,
-			"reviews": []
-		},
-		{
-			"id": 9,
-			"image": "https://i.ibb.co/Ws0Fz1T/tshirt.jpg",
-			"name": "T-shirt Noir",
-			"brand": {
-				"id": 1,
-				"logo": "https://i.ibb.co/Vm6h9FS/nike-logo.jpg",
-				"name": "Nike",
-				"website": "",
-				"addresses": []
-			},
-			"price": 120.00,
-			"discount": 50,
-			"isAvailable": true,
-			"isFavorite": true,
-			"reviews": []
-		},
-		{
-			"id": 10,
-			"image": "https://i.ibb.co/f4Gng7t/jewelry-watches.jpg",
-			"name": "Pack Montre et Bijoux",
-			"brand": {
-				"id": 3,
-				"logo": "https://i.ibb.co/HNcSKJ6/newyorker.png",
-				"name": "NewYorker",
-				"website": "",
-				"addresses": []
-			},
-			"price": 3600.00,
-			"discount": 25,
-			"isAvailable": false,
-			"isFavorite": true,
-			"reviews": []
-		}
-	]
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Imad",
+      "lastName": "IKHARAZE",
+      "email": "imad.ikharaze@gmail.com",
+      "password": "imadgrizo",
+      "favoriteProducts": [],
+      "notifications": []
+    },
+    {
+      "id": 2,
+      "firstName": "Wiam",
+      "lastName": "BISSI",
+      "email": "wiam.bissi@gmail.com",
+      "password": "wiambissi",
+      "favoriteProducts": [],
+      "notifications": []
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "logo": "https://i.ibb.co/Vm6h9FS/nike-logo.jpg",
+      "name": "Nike",
+      "website": "",
+      "addresses": []
+    },
+    {
+      "id": 2,
+      "logo": "https://i.ibb.co/099dBdw/lefties.jpg",
+      "name": "Lefties",
+      "website": "",
+      "addresses": []
+    },
+    {
+      "id": 3,
+      "logo": "https://i.ibb.co/HNcSKJ6/newyorker.png",
+      "name": "NewYorker",
+      "website": "",
+      "addresses": []
+    },
+    {
+      "id": 4,
+      "logo": "https://i.ibb.co/SNV0Mzk/lc-waikiki.jpg",
+      "name": "LC WAIKIKI",
+      "website": "",
+      "addresses": []
+    },
+    {
+      "id": 5,
+      "logo": "https://i.ibb.co/C5YWgfJ/defacto.png",
+      "name": "DeFacto",
+      "website": "",
+      "addresses": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/tQTg8Pk/jacket.jpg",
+      "name": "Jacket Biege",
+      "brand": {
+        "id": 2,
+        "logo": "https://i.ibb.co/099dBdw/lefties.jpg",
+        "name": "Lefties",
+        "website": "",
+        "addresses": []
+      },
+      "price": 400.00,
+      "discount": 20,
+      "isAvailable": true,
+      "isFavorite": true,
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/zRG0fbC/blousse.jpg",
+      "name": "Blousse Maron",
+      "brand": {
+        "id": 4,
+        "logo": "https://i.ibb.co/SNV0Mzk/lc-waikiki.jpg",
+        "name": "LC WAIKIKI",
+        "website": "",
+        "addresses": []
+      },
+      "price": 250.00,
+      "discount": 10,
+      "isAvailable": false,
+      "isFavorite": true,
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/ZB3YRhF/chaussette.jpg",
+      "name": "Chaussettes Blanches",
+      "brand": {
+        "id": 1,
+        "logo": "https://i.ibb.co/Vm6h9FS/nike-logo.jpg",
+        "name": "Nike",
+        "website": "",
+        "addresses": []
+      },
+      "price": 50.00,
+      "discount": 0,
+      "isAvailable": true,
+      "isFavorite": false,
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/KXWN3qv/chaussures.jpg",
+      "name": "Chaussures Sportif",
+      "brand": {
+        "id": 1,
+        "logo": "https://i.ibb.co/Vm6h9FS/nike-logo.jpg",
+        "name": "Nike",
+        "website": "",
+        "addresses": []
+      },
+      "price": 350.00,
+      "discount": 40,
+      "isAvailable": false,
+      "isFavorite": false,
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/N1mfMX6/jean.jpg",
+      "name": "Jean Bleu",
+      "brand": {
+        "id": 2,
+        "logo": "https://i.ibb.co/099dBdw/lefties.jpg",
+        "name": "Lefties",
+        "website": "",
+        "addresses": []
+      },
+      "price": 150.00,
+      "discount": 30,
+      "isAvailable": false,
+      "isFavorite": true,
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/7kSdzdZ/pyjama.jpg",
+      "name": "Pyjama Face",
+      "brand": {
+        "id": 5,
+        "logo": "https://i.ibb.co/C5YWgfJ/defacto.png",
+        "name": "DeFacto",
+        "website": "",
+        "addresses": []
+      },
+      "price": 200.00,
+      "discount": 0,
+      "isAvailable": false,
+      "isFavorite": false,
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/b3QWt6S/robe.jpg",
+      "name": "Robe Noir",
+      "brand": {
+        "id": 3,
+        "logo": "https://i.ibb.co/HNcSKJ6/newyorker.png",
+        "name": "NewYorker",
+        "website": "",
+        "addresses": []
+      },
+      "price": 300.00,
+      "discount": 0,
+      "isAvailable": true,
+      "isFavorite": true,
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/N3bdc6g/skirt.jpg",
+      "name": "Long Skirt",
+      "brand": {
+        "id": 3,
+        "logo": "https://i.ibb.co/HNcSKJ6/newyorker.png",
+        "name": "NewYorker",
+        "website": "",
+        "addresses": []
+      },
+      "price": 199.99,
+      "discount": 60,
+      "isAvailable": true,
+      "isFavorite": false,
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/Ws0Fz1T/tshirt.jpg",
+      "name": "T-shirt Noir",
+      "brand": {
+        "id": 1,
+        "logo": "https://i.ibb.co/Vm6h9FS/nike-logo.jpg",
+        "name": "Nike",
+        "website": "",
+        "addresses": []
+      },
+      "price": 120.00,
+      "discount": 50,
+      "isAvailable": true,
+      "isFavorite": true,
+      "reviews": []
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/f4Gng7t/jewelry-watches.jpg",
+      "name": "Pack Montre et Bijoux",
+      "brand": {
+        "id": 3,
+        "logo": "https://i.ibb.co/HNcSKJ6/newyorker.png",
+        "name": "NewYorker",
+        "website": "",
+        "addresses": []
+      },
+      "price": 3600.00,
+      "discount": 25,
+      "isAvailable": false,
+      "isFavorite": true,
+      "reviews": []
+    }
+  ],
+  "categories": {
+    "Femme": [
+      {
+        "id": 1,
+        "name": "Robes",
+        "image": "https://i.ibb.co/Sd0hLDB/robe.jpg"
+      },
+      {
+        "id": 2,
+        "name": "2pieces",
+        "image": "https://i.ibb.co/Dpb4SB8/2pieces.jpg"
+      },
+      {
+        "id": 3,
+        "name": "T-shirt",
+        "image": "https://i.ibb.co/pr6WTf3/t-shirt.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Leggins",
+        "image": "https://i.ibb.co/z6X1dhC/leggins.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Chaussettes",
+        "image": "https://i.ibb.co/Fn9McDq/chaussetes.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Blousse",
+        "image": "https://i.ibb.co/fkYB4B8/blousse.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Pyjama",
+        "image": "https://i.ibb.co/0KN0VH3/pyjama.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Jean",
+        "image": "https://i.ibb.co/Tc58JDG/jean.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Sacs",
+        "image": "https://i.ibb.co/NY6HnyF/sac-main.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Sweat-Shirt",
+        "image": "https://i.ibb.co/0h9tkC5/sweat-shirt.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Pantalons",
+        "image": "https://i.ibb.co/92Z8szn/pantalons.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Combinaison",
+        "image": "https://i.ibb.co/19KDd4J/combinaison.jpg"
+      }
+    ],
+    "Homme": [
+      {
+        "id": 1,
+        "name": "Tops",
+        "image": "https://i.ibb.co/vzxQ940/tops.png"
+      },
+      {
+        "id": 2,
+        "name": "Pontalons,Shorts",
+        "image": "https://i.ibb.co/m8q8QqB/shorts.png"
+      },
+      {
+        "id": 3,
+        "name": "Ensembles",
+        "image": "https://i.ibb.co/BrsKcqN/ensembles.png"
+      },
+      {
+        "id": 4,
+        "name": "Demin",
+        "image": "https://i.ibb.co/t2D4Vtf/demin.png"
+      },
+      {
+        "id": 5,
+        "name": "Costumes",
+        "image": "https://i.ibb.co/TK0YvF1/costumes.png"
+      },
+      {
+        "id": 6,
+        "name": "Sweat-Shirt",
+        "image": "https://i.ibb.co/DzS0DZQ/sweat-shirt.png"
+      },
+      {
+        "id": 7,
+        "name": "Sous-vetements",
+        "image": "https://i.ibb.co/5r9VMq5/sous-vetement.png"
+      },
+      {
+        "id": 8,
+        "name": "Tenue-de-sports",
+        "image": "https://i.ibb.co/G7HFH8x/temue-sport.png"
+      },
+      {
+        "id": 9,
+        "name": "Maillots-de-bain",
+        "image": "https://i.ibb.co/TgxvySP/maillots.png"
+      },
+      {
+        "id": 10,
+        "name": "Chaussures",
+        "image": "https://i.ibb.co/X85Hz1n/chaussures.png"
+      },
+      {
+        "id": 11,
+        "name": "Accessoires",
+        "image": "https://i.ibb.co/d77XLvx/accessoires.png"
+      },
+      {
+        "id": 12,
+        "name": "Oversize",
+        "image": "https://i.ibb.co/j5J7WhN/oversize.png"
+      }
+    ],
+    "Enfants": [
+      {
+        "id": 1,
+        "name": "bebe",
+        "image": "https://i.ibb.co/xH3CCc1/bebe.png"
+      },
+      {
+        "id": 2,
+        "name": "Petites-garcon",
+        "image": "https://i.ibb.co/M2DFTK5/pgarcon.png"
+      },
+      {
+        "id": 3,
+        "name": "Petites-filles",
+        "image": "https://i.ibb.co/y5Lvk51/pfille.png"
+      },
+      {
+        "id": 4,
+        "name": "Garcons",
+        "image": "https://i.ibb.co/cT5QjyB/garcon.png"
+      },
+      {
+        "id": 5,
+        "name": "Filles",
+        "image": "https://i.ibb.co/3dhz7WF/filles.png"
+      },
+      {
+        "id": 6,
+        "name": "Sacs",
+        "image": "https://i.ibb.co/j5XCgCs/sacs.png"
+      },
+      {
+        "id": 7,
+        "name": "Accessoires",
+        "image": "https://i.ibb.co/F0MBWG1/accessoire.png"
+      },
+      {
+        "id": 8,
+        "name": "Chaussures",
+        "image": "https://i.ibb.co/2tqwnM1/chaussures.png"
+      },
+      {
+        "id": 9,
+        "name": "Maternite",
+        "image": "https://i.ibb.co/3Ym8jKB/materniter.png"
+      },
+      {
+        "id": 10,
+        "name": "Tenue-de-famille",
+        "image": "https://i.ibb.co/Dk2LnV1/tenue-de-famille.png"
+      }
+    ]
+  }
 }
