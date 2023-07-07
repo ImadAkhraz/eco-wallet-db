@@ -229,7 +229,7 @@
     }
   ],
   "categories": {
-    "Femme": [
+    "femme": [
       {
         "id": 1,
         "name": "Robes",
@@ -291,7 +291,7 @@
         "image": "https://i.ibb.co/19KDd4J/combinaison.jpg"
       }
     ],
-    "Homme": [
+    "homme": [
       {
         "id": 1,
         "name": "Tops",
@@ -353,7 +353,7 @@
         "image": "https://i.ibb.co/j5J7WhN/oversize.png"
       }
     ],
-    "Enfants": [
+    "enfants": [
       {
         "id": 1,
         "name": "bebe",
